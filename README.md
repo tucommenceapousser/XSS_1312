@@ -1,3 +1,5 @@
+![XSS_Logo](trkn.svg)
+
 # XSS_1312
 Mass Scaning vulnerability in Cpanel [XSS] 
 
