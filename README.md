@@ -1,20 +1,11 @@
 # XSS_1312
 Mass Scaning vulnerability in Cpanel [XSS] 
+
+## CLONE ON REPLIT
+
+[![Run on Replit](https://replit.com/badge/github/tucommenceapousser/XSS_1312)](https://replit.com/github/tucommenceapousser/XSS_1312)
+
 ## KALI LINUX
-
-
-<button style="background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 12px;">[![Run on Replit](https://replit.com/badge/github/your-username/your-repo)](https://replit.com/github/your-username/your-repo)</button>
   
 ```sudo pip install BeautifulSoup```
 
