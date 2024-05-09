@@ -1,5 +1,4 @@
-![logo](https://raw.githubusercontent.com/mr-sami-x/XSS_1915/main/image%20(3).png)
-# XSS_1915
+# XSS_1312
 Mass Scaning vulnerability in Cpanel [XSS] 
 ## KALI LINUX
 
@@ -9,9 +8,9 @@ Mass Scaning vulnerability in Cpanel [XSS]
 
 ```sudo pip install pystyle```
 
-```git clone https://github.com/mr-sami-x/XSS_1915.git```
+```git clone https://github.com/tucommenceapousser/XSS_1312.git```
 
-```cd XSS_1915```
+```cd XSS_1312```
 
 ```python cve_2023_29489.py```
 
@@ -25,9 +24,9 @@ Mass Scaning vulnerability in Cpanel [XSS]
 
 ```pkg install requests```
 
-```git clone https://github.com/mr-sami-x/XSS_1915.git```
+```git clone https://github.com/tucommenceapousser/XSS_1312.git```
 
-```cd XSS_1915```
+```cd XSS_1312```
 
 ```python cve_2023_29489.py```
 
@@ -35,4 +34,4 @@ Mass Scaning vulnerability in Cpanel [XSS]
 ![image](https://raw.githubusercontent.com/mr-sami-x/Rock-Scan/main/image%20(4).png)
 
 
-[Telegram](https://t.me/TYG_YE)
+[Telegram](https://t.me/trhacknon)
