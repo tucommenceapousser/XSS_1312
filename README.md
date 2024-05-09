@@ -12,8 +12,12 @@ Mass Scaning vulnerability in Cpanel [XSS]
 
 ```cd XSS_1312```
 
+
+## for use shodan api
 ```python cve_2023_29489.py```
 
+## for use files containing ip targets
+```python cve_2023_29489o.py```
 ## TERMUX
 
 ```pkg install BeautifulSoup```
